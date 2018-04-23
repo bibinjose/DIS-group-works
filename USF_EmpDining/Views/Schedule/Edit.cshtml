@@ -1,0 +1,43 @@
+@model EmpApp.Models.Schedule
+
+<br/><br/>
+<form asp-action="Edit" method="Post">
+     <div class="form-horizontal">
+         <div class="row">
+             <div class="hidden">
+                 <label asp-for="ScheduleId" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="ScheduleId" class="form-control" />
+                     <span asp-validation-for="ScheduleId" class="text-danger"></span>
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label asp-for="ScheduleDate" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="ScheduleDate" class="form-control" />
+                     <span asp-validation-for="ScheduleDate" class="text-danger"></span>
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label asp-for="EndTime" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="EndTime" class="form-control" />
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label asp-for="StartTime" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="StartTime" class="form-control" />
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label asp-for="WorkLocation" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="WorkLocation" class="form-control" />
+                 </div>
+             </div>
+         </div>
+     </div>
+        <input type="submit" value="Update" class="col-lg-2 col-md-offset-2 btn btn-success" /> <br/>
+
+</form>

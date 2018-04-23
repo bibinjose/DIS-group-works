@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdEBf2QOkPkapHeDTPnDXNQAAAAACAAAAAAAQZgAAAAEAACAAAAC0ls+lfqrp4XLlaM0xGPKci0Yh7MwZ+21C3+QH2cTeNAAAAAAOgAAAAAIAACAAAABGuU5mf77ETonaQ4Btp10U1T9sQeas5YqoyItSece52IAAAABVERiSZ0L4Hr+Qrx40KIT9gV0iNjAee1qVBwDux50l/W3Jp9It+vlJafJ2PcNGWK2cfZjrhJPgNdbcpJHzECHXgyI8dgPEE2PfAhmpXu7IML8PFhAjFfKk0KNob96d0rmh2pyEHN9u9ops60S5vYTXwOI6dnkpwQbLJxLBeqBRrUAAAADdTm4O/iWG4YVAMVZMsGV+MKd+ypAZnC2xPQHtZFCxGuieLUufsnR2IKQo/UsY+Gt9EG70hhsi8hgynXazRRrb</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Server=tcp:dining.database.windows.net,1433;Initial Catalog=EmpApp;Persist Security Info=False;User ID=admin123;Password=password#0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="Identity">
+      <Value>Server=tcp:dining.database.windows.net,1433;Initial Catalog=EmpAppIdentity;Persist Security Info=False;User ID=admin123;Password=password#0;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="EmpApp.Models.AppIdentityDbContext">
+      <Value>
+      </Value>
+    </EFMigrations>
+    <EFMigrations Include="EmpApp.Persistance.AppDbContext">
+      <Value>
+      </Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

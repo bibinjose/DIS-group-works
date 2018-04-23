@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="USFDiningApp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\bibin\\Downloads\\USF_EmpDining-master\\USF_EmpDining-master\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="EmpApp.Models.AppIdentityDbContext" description="" value="" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\bibin\\Downloads\\USF_EmpDining-master\\USF_EmpDining-master\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\EmpApp\.Models\.AppIdentityDbContext\.sql$" />
+  </parameter>
+  <parameter name="EmpApp.Persistance.AppDbContext" description="" value="" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\bibin\\Downloads\\USF_EmpDining-master\\USF_EmpDining-master\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\EmpApp\.Persistance\.AppDbContext\.sql$" />
+  </parameter>
+</parameters>

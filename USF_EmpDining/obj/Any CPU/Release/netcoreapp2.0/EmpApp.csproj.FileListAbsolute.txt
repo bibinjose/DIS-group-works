@@ -1,0 +1,11 @@
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\bin\Any CPU\Release\netcoreapp2.0\EmpApp.deps.json
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\bin\Any CPU\Release\netcoreapp2.0\EmpApp.runtimeconfig.json
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\bin\Any CPU\Release\netcoreapp2.0\EmpApp.runtimeconfig.dev.json
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\bin\Any CPU\Release\netcoreapp2.0\EmpApp.dll
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\bin\Any CPU\Release\netcoreapp2.0\EmpApp.pdb
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\obj\Any CPU\Release\netcoreapp2.0\EmpApp.csprojResolveAssemblyReference.cache
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\obj\Any CPU\Release\netcoreapp2.0\EmpApp.csproj.CoreCompileInputs.cache
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\obj\Any CPU\Release\netcoreapp2.0\EmpApp.AssemblyInfoInputs.cache
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\obj\Any CPU\Release\netcoreapp2.0\EmpApp.AssemblyInfo.cs
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\obj\Any CPU\Release\netcoreapp2.0\EmpApp.dll
+C:\Users\bibin\Downloads\USF_EmpDining-master\USF_EmpDining-master\obj\Any CPU\Release\netcoreapp2.0\EmpApp.pdb

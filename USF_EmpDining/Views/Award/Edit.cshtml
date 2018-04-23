@@ -1,0 +1,32 @@
+@model EmpApp.Models.Award
+
+<br/><br/>
+<form asp-action="Edit" method="Post">
+     <div class="form-horizontal">
+         <div class="row">
+             <div class="hidden">
+                 <label asp-for="AwardId" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="AwardId" class="form-control" />
+                     <span asp-validation-for="AwardId" class="text-danger"></span>
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label asp-for="AwardName" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="AwardName" class="form-control" />
+                     <span asp-validation-for="AwardName" class="text-danger"></span>
+                 </div>
+             </div>
+             <div class="form-group">
+                 <label asp-for="PrizeAmount" class="col-lg-2 col-sm-3 control-label"></label>
+                 <div class="col-lg-3">
+                     <input asp-for="PrizeAmount" class="form-control" />
+                 </div>
+             </div>
+            
+         </div>
+     </div>
+        <input type="submit" value="Update" class="col-lg-2 col-md-offset-2 btn btn-success" /> <br/>
+
+</form>

@@ -1,0 +1,44 @@
+@model IEnumerable<EmpApp.Models.ScheduleViewModel>
+
+
+ <div class="panel-body">  
+        <div class="btn-group">  
+            <a asp-action="Create"  class="btn btn-primary">  
+                <i class="glyphicon glyphicon-plus"></i> Employee Schedule
+            </a>  
+        </div>  
+
+<br/> <br/>
+
+
+ <table class="table table-bordered table-striped table-condensed">  
+            <thead>  
+                <tr>
+                    <th>Emp Name</th>
+                    <th>Schedule Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Work Location</th>
+                </tr>  
+            </thead>  
+            <tbody>  
+                @foreach (var item in Model)  
+                {  
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.EmployeeName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ReturnScheduleDateForDisplay)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ReturnScheduleStartTimeForDisplay)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ReturnScheduleEndTimeForDisplay)</td>
+                    <td>@Html.DisplayFor(modelItem => item.WorkLocation)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ScheduleId" class="btn btn-info">
+                            <i class="glyphicon glyphicon-pencil"></i>  Edit
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.ScheduleId" class="btn btn-danger" onclick="return confirm('Are you sure you wish to delete ?');">
+                            <i class="glyphicon glyphicon-trash"></i>  Delete
+                        </a>
+                    </td>
+                </tr>  
+                }  
+            </tbody>  
+        </table>  
